@@ -1,0 +1,24 @@
+.snowflake {
+  position: fixed;
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  border-radius: 50%; /* Hace que los copos sean redondos */
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.8); /* Añade un ligero brillo */
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.snowflake::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 50%; /* Hace que los copos sean redondos */
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.8); /* Añade un ligero brillo */
+  z-index: 9999;
+  pointer-events: none;
+}
