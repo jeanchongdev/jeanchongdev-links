@@ -291,8 +291,8 @@
 }
 
 .sticker-image {
-  width: 100px; /**/ /* Ajusta el ancho según tus necesidades */
-  height: 100px; /**/ /* Ajusta el ancho según tus necesidades */
+  width: 80px;
+  height: 80px;
   filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.3));
 }
 
@@ -377,8 +377,8 @@
   }
 
   .sticker-image {
-    width: 100px; /**/ /* Ajusta el ancho según tus necesidades */
-    height: 100px; /**/ /* Ajusta el ancho según tus necesidades */
+    width: 60px;
+    height: 60px;
   }
 
   .audio-visualizer {
@@ -390,4 +390,29 @@
   .audio-visualizer:hover {
     transform: translateX(-100px) scale(1.1);
   }
+}
+
+.mobile-legends-icon {
+  background-color: #000;
+  color: #ff5722; /* Color naranja característico de Mobile Legends */
+}
+
+.mobile-legends-icon:hover {
+  color: #ff8a65; /* Un tono más claro al hacer hover */
+}
+
+.roblox-icon {
+  background-color: #000;
+  color: #ff0000; /* Color rojo característico de Roblox */
+}
+
+.roblox-icon:hover {
+  color: #ff6666; /* Un tono más claro al hacer hover */
+}
+
+/* Estilos para el audio-visualizer en dispositivos móviles */
+.mobile-audio-visualizer {
+  transform: translateX(-100px);
+  width: 35px;
+  height: 35px;
 }

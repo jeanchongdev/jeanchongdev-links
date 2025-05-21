@@ -347,12 +347,29 @@ export default function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="link-icon">
+              <div className="link-icon roblox-icon">
                 <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
                   <path d="M5.164 0L.16 18.928 18.836 24l5.004-18.928L5.164 0zm11.095 17.097l-8.747-2.923 1.148-3.45 8.747 2.923-1.148 3.45z" />
                 </svg>
               </div>
               <span className="link-text">Roblox</span>
+              <ExternalLink size={16} className="external-icon" />
+            </a>
+
+            {/* Nuevo enlace a Mobile Legends */}
+            <a
+              href="https://mobile-legends-profile.vercel.app/"
+              className="link-item"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="link-icon mobile-legends-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <path d="M12 0L2.25 6v12L12 24l9.75-6V6L12 0zm7.5 16.5L12 21l-7.5-4.5v-9L12 3l7.5 4.5v9z" />
+                  <path d="M12 6l-4.5 2.5v7L12 18l4.5-2.5v-7L12 6zm3 8l-3 1.5L9 14v-4l3-1.5 3 1.5v4z" />
+                </svg>
+              </div>
+              <span className="link-text">Mobile Legends</span>
               <ExternalLink size={16} className="external-icon" />
             </a>
 
